@@ -4,7 +4,7 @@ const UserInput = ({ type, onChange }) => {
   return (
     <input
       className={classes.Input}
-      placeholder="Enter number..."
+      placeholder="Enter a number..."
       type={type}
       onChange={onChange}
     />

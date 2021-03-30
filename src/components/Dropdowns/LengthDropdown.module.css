@@ -1,0 +1,16 @@
+.container {
+  padding: 3px;
+  display: block;
+  box-sizing: border-box;
+}
+
+select {
+  font-family: "Kiwi Maru", serif;
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+select:focus {
+  outline: none;
+}

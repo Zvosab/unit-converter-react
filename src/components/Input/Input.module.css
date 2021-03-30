@@ -1,0 +1,31 @@
+.Input {
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  font-family: "Kiwi Maru", serif;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 1; /* Firefox */
+}
+
+.Input:focus {
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

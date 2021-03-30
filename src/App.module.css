@@ -1,0 +1,9 @@
+.container {
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 0;
+  background-color: #f1fccc;
+  height: fit-content;
+  -webkit-box-shadow: 3px 5px 15px 5px #000000;
+  box-shadow: 3px 5px 15px 5px #000000;
+}
